@@ -1,4 +1,3 @@
-
 const routes = (handler) => [
     {
         method: 'POST',
@@ -25,7 +24,7 @@ const routes = (handler) => [
         method: 'DELETE',
         path: '/notes/{id}',
         handler: handler.deleteNoteByIdHandler, // hanya menerima dan menghapus "satu" note.
-    }
+    },
 ];
 
 module.exports = routes;
