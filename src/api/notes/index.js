@@ -7,6 +7,5 @@ module.exports = {
     register: async (server, { service, validator }) => {
         const notesHandler = new NotesHandler(service, validator);
         server.route(routes(notesHandler));
-
     },
-}
+};
