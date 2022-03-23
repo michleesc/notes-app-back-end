@@ -18,11 +18,11 @@ exports.up = (pgm) => {
             type: 'TEXT[]',
             notNull: true,
         },
-        create_at: {
+        created_at: {
             type: 'TEXT',
             notNull: true,
         },
-        update_at: {
+        updated_at: {
             type: 'TEXT',
             notNull: true,
         },
