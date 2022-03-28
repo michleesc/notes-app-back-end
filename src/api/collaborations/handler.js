@@ -37,7 +37,7 @@ class CollaborationsHandler {
         response.code(error.statusCode);
         return response;
       }
-      console.log(error);
+
       // Server ERROR!
       const response = h.response({
         status: 'error',
@@ -71,7 +71,7 @@ class CollaborationsHandler {
         response.code(error.statusCode);
         return response;
       }
-      console.log(error);
+
       // Server ERROR!
       const response = h.response({
         status: 'error',
