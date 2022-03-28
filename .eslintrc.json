@@ -18,6 +18,6 @@
         "eol-last": "off",
         "no-underscore-dangle": "off",
         "function-paren-newline": "off",
-        "camelcase": "off"
+        "camelcase": "off"    
     }
 }
